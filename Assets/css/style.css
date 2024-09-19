@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.geral{
+    height: 900px;
+}
+.container{
+    width: 900px;
+}
+.banner{
+    display: flex;
+    background-image: url(https://cinepop.com.br/wp-content/uploads/2020/02/CAPA-1-696x464.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+    font-size: 70px;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    
+}
+.nome{
+    display: flex;
+    font-size: 70px;
+    margin-bottom: 200px;
+}
+section{
+    display: flex;
+    justify-content: center;
+
+}
+.meu-menu{
+    background-color: black;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 70px;
+}
+.menu-left{
+    display: flex;
+    align-items: flex-start;
+    flex: 2;
+    background-color: black;
+}
+.menu-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.links , a{
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+    color: rgb(117,119,121);
+    font-family: "Open Sans" sans serif;
+}
+a:hover{
+    color: white;
+    letter-spacing: 2px;
+}
