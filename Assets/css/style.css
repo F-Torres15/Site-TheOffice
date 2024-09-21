@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.geral{
+
+.geral {
     height: 900px;
 }
-.container{
-    width: 900px;
+
+.container {
+    width: 100%;
 }
-.banner{
+
+.banner {
     display: flex;
     background-image: url(https://cinepop.com.br/wp-content/uploads/2020/02/CAPA-1-696x464.jpg.webp);
     background-repeat: no-repeat;
@@ -20,51 +23,154 @@
     justify-content: start;
     align-items: center;
     color: aliceblue;
-    
+
 }
-.nome{
+
+.nome {
     display: flex;
     font-size: 70px;
     margin-bottom: 200px;
 }
-section{
+
+section {
     display: flex;
     justify-content: center;
 
 }
-.meu-menu{
+
+.meu-menu {
     background-color: black;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: center;
     width: 900px;
     height: 70px;
 }
-.menu-left{
+
+.menu-left {
     display: flex;
     align-items: flex-start;
     flex: 2;
     background-color: black;
 }
-.menu-right{
+
+.menu-right {
     display: flex;
     flex: 1;
     justify-content: flex-end;
 }
-.links{
+
+.links {
     display: flex;
     align-items: center;
     margin: 10px;
 }
-.links , a{
+
+.links,
+a {
     text-decoration: none;
     margin: 8px;
     font-weight: bold;
-    color: rgb(117,119,121);
+    color: rgb(117, 119, 121);
     font-family: "Open Sans" sans serif;
 }
-a:hover{
+
+a:hover {
     color: white;
     letter-spacing: 2px;
+}
+
+.info {
+    display: flex;
+    font-size: 45px;
+    height: 100px;
+
+
+}
+
+.personagens {
+    display: flex;
+    background-color: black;
+    height: 600px;
+justify-content: space-around;
+}
+
+.michael {
+    /* background-image: url(../css/img/michael.png);
+    background-repeat: no-repeat; */
+    /* width: 800px; */
+    /* display: flex; */
+    /* flex: 1;
+    width: 100px;
+    /* justify-content:  flex-start; */
+    background-color: blue;
+    /* background-size: 900px; */
+    /* height: 500px */
+
+
+}
+
+.textM{
+    background-color;:aliceblue
+}
+.textJ{
+    background-color;:aqua
+}
+.textP{
+    background-color: blueviolet;
+}
+.textD{
+    background-color: brown;
+}
+
+.textM,.textJ,.textP,.textD{
+    width: 500px;
+
+   
+
+
+
+
+
+}
+ 
+/* p {
+    font-size: 60px;
+    color: red;
+} */
+
+
+.jim {
+    /* background-image: url(../css/img/JIm3.png);
+    width: 300px;
+
+    background-repeat: no-repeat; */
+    background-color: red;
+    
+    
+}
+
+.textJ {
+    font-size: large;
+}
+
+.pan {
+    /* background-image: url(../css/img/Pan.png);
+    width: 300px;
+    background-repeat: no-repeat; */
+    background-color: green;
+
+    
+}  
+
+.dwight{
+    background-color: white;
+  
+}
+
+.michael,.jim,.pan,.dwight{
+    width: 700px;
+
 }
