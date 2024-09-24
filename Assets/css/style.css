@@ -4,7 +4,7 @@
 }
 
 .geral {
-    height: 900px;
+    height: 1000px;
 }
 
 .container {
@@ -17,8 +17,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    height: 700px;
+    background-position : center;
+    height: 1200px;
     font-size: 70px;
     justify-content: start;
     align-items: center;
@@ -40,38 +40,52 @@ section {
 
 .meu-menu {
     background-color: black;
+    height: 100px;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    width: 900px;
+    width: 100%;
     height: 70px;
+
 }
 
 .menu-left {
     display: flex;
-    align-items: flex-start;
-    flex: 2;
-    background-color: black;
+    justify-content:  flex-start;
+
+
+    
 }
 
 .menu-right {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+
+    width: 100%;
+}
+
+.redes{
+    display: flex;
+    justify-content:flex-end;
+    margin: 10px;
+    font-size: 40px;
 }
 
 .links {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    
     margin: 10px;
+    font-size: 40px;
 }
 
 .links,
 a {
     text-decoration: none;
-    margin: 8px;
+    margin: 10px;
     font-weight: bold;
     color: rgb(117, 119, 121);
     font-family: "Open Sans" sans serif;
@@ -84,39 +98,80 @@ a:hover {
 
 .info {
     display: flex;
-    font-size: 45px;
+    font-size: 70px;
+    margin-bottom: 200px;
     height: 100px;
 
 
 }
 
+
+
 .personagens {
     display: flex;
     background-color: black;
-    height: 600px;
+    height: 500px;
+    
+
 justify-content: space-around;
 }
 
 .michael {
-    /* background-image: url(../css/img/michael.png);
-    background-repeat: no-repeat; */
-    /* width: 800px; */
-    /* display: flex; */
-    /* flex: 1;
-    width: 100px;
-    /* justify-content:  flex-start; */
-    background-color: blue;
-    /* background-size: 900px; */
-    /* height: 500px */
+    background-image: url(../css/img/1.png);
+    background-repeat: no-repeat;
+    background-size: 550px;
 
+    
+    
 
 }
+
+.jim {
+    background-image: url(../css/img/3.png);
+    background-size: 550px;
+    background-position-x: -40px;
+    
+    background-repeat: no-repeat;
+ 
+    background-color: red;
+    
+    
+}
+
+
+
+.pan {
+    background-image: url(../css/img/2.png);
+    /* width:300px; */
+    
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-color: green;
+
+    
+}  
+
+.dwight{
+    background-image: url(../css/img/4.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 550px;
+
+
+  
+}
+
+.michael,.jim,.pan,.dwight{
+    width: 550px;
+}
+
 
 .textM{
-    background-color;:aliceblue
+    background-color:aliceblue
+
 }
 .textJ{
-    background-color;:aqua
+    background-color:aqua
 }
 .textP{
     background-color: blueviolet;
@@ -127,6 +182,7 @@ justify-content: space-around;
 
 .textM,.textJ,.textP,.textD{
     width: 500px;
+    font-size: 28px;
 
    
 
@@ -142,35 +198,33 @@ justify-content: space-around;
 } */
 
 
-.jim {
-    /* background-image: url(../css/img/JIm3.png);
-    width: 300px;
 
-    background-repeat: no-repeat; */
-    background-color: red;
-    
-    
+
+
+
+.infov{
+   
+    font-size: 70px;
+    margin-bottom: 200px;
+    height: 100px;
+
 }
 
-.textJ {
-    font-size: large;
-}
+.container3{
+    display: flex;
+    justify-content: space-around;
 
-.pan {
-    /* background-image: url(../css/img/Pan.png);
-    width: 300px;
-    background-repeat: no-repeat; */
-    background-color: green;
 
-    
-}  
-
-.dwight{
-    background-color: white;
+    height: 900px;
+    width: 100%;
   
+    
 }
 
-.michael,.jim,.pan,.dwight{
-    width: 700px;
+.cortes{
+    display: flex;
+    justify-content: space-between;
 
+    width: 5100px;
+    height: 550px;
 }
