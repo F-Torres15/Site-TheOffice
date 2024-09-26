@@ -8,7 +8,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 800px;
 }
 
 .banner {
@@ -71,15 +71,15 @@ section {
     display: flex;
     justify-content:flex-end;
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     
     margin: 10px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .links,
@@ -109,97 +109,18 @@ a:hover {
 
 .personagens {
     display: flex;
-   
-    height: 500px;
-    
-
-justify-content: space-around;
+    width: 100%;
+justify-content: space-between;
 }
 
-.michael {
-    background-image: url(../css/img/1.png);
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position-x: -50px;
 
-    
-    
 
-}
 
-.jim {
-    background-image: url(../css/img/3.png);
-    background-size: 550px;
-    background-position-x: -130px;
-
-    
-    background-repeat: no-repeat;
  
-    
-    
-    
-}
-
-
-
-.pan {
-    background-image: url(../css/img/2.png);
-    /* width:300px; */
-    
-    background-size: 550px;
-    background-repeat: no-repeat;
-    
-
-    
-}  
-
-.dwight{
-    background-image: url(../css/img/4.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 550px;
-
-
-  
-}
-
-.michael,.jim,.pan,.dwight{
-    width: 550px;
-}
-
-.textM{
-    width: 500px;
-    height: 10px;
-    font-size: 42px;
-}
-
-.textJ{
-    font-size: 40px;
-    width: 500px;
-}
-
-.textP{
-    width: 500px;
-    font-size: 40px;
-
-}
-.textD{
-    width: 500px;
-    font-size: 45px;
+p {
+    font-size: 15px;
     color: black;
-
-   
-
-
-
-
-
-}
- 
-/* p {
-    font-size: 60px;
-    color: red;
-} */
+} 
 
 
 
@@ -210,25 +131,51 @@ justify-content: space-around;
    
     font-size: 70px;
     margin-bottom: 200px;
-    height: 100px;
+    height: 200px;
 
 }
 
-.container3{
+.container{
     display: flex;
-    justify-content: space-around;
-
-
+    justify-content: center;
     height: 900px;
     width: 100%;
-  
+ 
     
 }
 
 .cortes{
     display: flex;
-    justify-content: space-between;
-
-    width: 5100px;
-    height: 550px;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    
 }
+
+.informacoes{
+    display: flex;
+    height: 500px;
+    width: 10000;
+    justify-content: space-around;
+}
+
+.sobre{
+    font-size: 20px;
+    width: 300px;
+    
+}
+
+.nomeS{
+    font-size: 40px;
+}
+
+.not{
+    font-size: 50px;
+}
+
+.noticia{
+    font-size: 20px;
+    width: 300px;
+    
+}
+
