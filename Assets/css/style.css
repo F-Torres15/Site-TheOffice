@@ -163,17 +163,28 @@ p {
 .informacoes{
     display: flex;
     
-    width: 800px;
+    width: 500px;
     justify-content: space-around;
     flex-wrap: wrap;
+ 
 }
 
 .sobre{
+    display: flex;
+
     font-size: 20px;
     width: 300px;
-    height: 700px;
     flex-wrap: wrap;
     
+}
+
+.noticia{
+
+    display: flex;
+
+    font-size: 20px;
+    width: 300px;
+    flex-wrap: wrap;
 }
 
 .nomeS{
@@ -195,5 +206,18 @@ p {
     justify-content: center;
     background-color: black;
     color: rgb(117, 119, 121);
-    height: 10;
+    height: 50px;
 }
+
+@media (max-width :991px)  {
+    
+    #historia,#sobre{
+        margin-top: 500px;
+    }
+
+    .rodape{
+        margin-top: 200px;
+    }
+}
+
+    
